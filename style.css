@@ -1,0 +1,156 @@
+body {
+    color: #C5C6C7;
+    background-color: #1F2833;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+  
+h1 { 
+    color: #66FCF1;
+    font-size: 5.5rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    color: #45A29E;
+    font-family: 'Sacramento', cursive;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #66FCF1;
+    font-family: 'Sacramento', cursive;
+    font-size: 1.5rem;
+}
+  
+p {
+    line-height: 2;
+}
+  
+hr {
+    border:none;
+    left: 0px;
+    right: 0px;
+    margin: 80px auto;
+}
+  
+a {
+    color: #11999E;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+    background-color: green;
+}
+
+.top-container { 
+    padding-bottom: 100px;
+    background-color: #0B0C10;
+    position: relative;
+    padding-top: 100px;
+}
+
+.bio { 
+    width: 30%;
+    margin: auto;
+}
+
+.topright-cloud { 
+    position: absolute;
+    right: 12%;
+    top: 10%;
+    width: 13%;
+    height: 13%;
+}
+.topleft-cloud { 
+    position: absolute;
+    left: 10%;
+    top: 3%;
+    width: 13%; 
+    height: 13%;
+}
+
+.middle-container { 
+    margin: 100px 0;
+    background-color: #1F2833;
+
+}
+
+.skills { 
+    width: 60%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.it-img { 
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.kanye-img { 
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.my-experience { 
+    background-size: cover;
+    text-align: center
+}
+
+
+.experience { 
+    max-width: 70%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px green;
+    height: 80%;
+    background-color:#0B0C10;
+    padding-left: 10px;
+}
+
+
+.experiences { 
+    display: flex;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.experience + .experience {
+    margin-left: 20px;
+}
+
+.bottom-container { 
+    background-color: #0B0C10; 
+    padding: 2%;
+}
+
+
+.connect { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-connect { 
+    height: 80px;
+    width: 80px;
+}
+
+.connect-items { 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 5px 40px;
+}
